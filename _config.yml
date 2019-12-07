@@ -12,7 +12,7 @@ safe: true
 
 # edit here to achieve your personal greatness
 url: http://trangvu.github.io/
-baseurl: /home/
+baseurl: /
 title: Trang Vu
 author: Trang Vu
 description: Personal blog and resume

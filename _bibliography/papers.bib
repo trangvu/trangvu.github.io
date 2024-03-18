@@ -1,93 +1,256 @@
 ---
 ---
 
+@article{vu2023active,
+  abbr={activeCL},
+  bibtex_show={true},
+  preview={activeCL.png},
+  pdf={https://arxiv.org/abs/2305.03923},
+  title={Active Continual Learning: Labelling Queries in a Sequence of Tasks},
+  author={Vu, Thuy-Trang and Khadivi, Shahram and Phung, Dinh and Haffari, Gholamreza},
+  journal={arXiv preprint arXiv:2305.03923},
+  year={2023}
+}
+
+@article{nguyen2024direct,
+  abbr={arxiv},
+  bibtex_show={true},
+  preview={cert-reasoning.png},
+  pdf={https://arxiv.org/abs/2402.11199},
+  title={Direct Evaluation of Chain-of-Thought in Multi-hop Reasoning with Knowledge Graphs},
+  author={Nguyen, Minh-Vuong and Luo, Linhao and Shiri, Fatemeh and Phung, Dinh and Li, Yuan-Fang and Vu, Thuy-Trang and Haffari, Gholamreza},
+  journal={arXiv preprint arXiv:2402.11199},
+  year={2024}
+}
+
+@article{wang2024conversational,
+  abbr={arxiv},
+  bibtex_show={true},
+  preview={conver-simulMT.png},
+  pdf={https://arxiv.org/abs/2402.10552},
+  title={Conversational SimulMT: Efficient Simultaneous Translation with Large Language Models},
+  author={Wang, Minghan and Vu, Thuy-Trang and Shareghi, Ehsan and Haffari, Gholamreza},
+  journal={arXiv preprint arXiv:2402.10552},
+  year={2024}
+}
+
+@article{wu2024continual,
+  abbr={arxiv},
+  bibtex_show={true},
+  preview={cl-llm-survey.png},
+  pdf={https://arxiv.org/abs/2402.01364},
+  title={Continual learning for large language models: A survey},
+  author={Wu, Tongtong and Luo, Linhao and Li, Yuan-Fang and Pan, Shirui and Vu, Thuy-Trang and Haffari, Gholamreza},
+  journal={arXiv preprint arXiv:2402.01364},
+  year={2024}
+}
+
+@article{wang2023simultaneous,
+    abbr={arxiv},
+  bibtex_show={true},
+  preview={llm-simul.png},
+  pdf={https://arxiv.org/abs/2309.06706},
+  title={Simultaneous machine translation with large language models},
+  author={Wang, Minghan and Zhao, Jinming and Vu, Thuy-Trang and Shiri, Fatemeh and Shareghi, Ehsan and Haffari, Gholamreza},
+  journal={arXiv preprint arXiv:2309.06706},
+  year={2023}
+}
+
+@article{wu2024adapting,
+  abbr={arxiv},
+  bibtex_show={true},
+  preview={llm-docmt.png},
+  pdf={https://arxiv.org/abs/2401.06468},
+  title={Adapting large language models for document-level machine translation},
+  author={Wu, Minghao and Vu, Thuy-Trang and Qu, Lizhen and Foster, George and Haffari, Gholamreza},
+  journal={arXiv preprint arXiv:2401.06468},
+  year={2024}
+}
+
+@inproceedings{vu-etal-2023-koala,
+    title = "Koala: An Index for Quantifying Overlaps with Pre-training Corpora",
+    abbr={EMNLP Demos},
+    bibtex_show={true},
+    selected={true},
+    pdf={https://aclanthology.org/2023.emnlp-demo.7.pdf},
+    author = "Vu, Thuy-Trang  and
+      He, Xuanli  and
+      Haffari, Gholamreza  and
+      Shareghi, Ehsan",
+    editor = "Feng, Yansong  and
+      Lefever, Els",
+    preview={koala.png},
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-demo.7",
+    doi = "10.18653/v1/2023.emnlp-demo.7",
+    pages = "90--98",
+    abstract = "In very recent years more attention has been placed on probing the role of pre-training data in Large Language Models (LLMs) downstream behaviour. Despite the importance, there is no public tool that supports such analysis of pre-training corpora at large scale. To help research in this space, we launch Koala, a searchable index over large pre-training corpora using lossless compressed suffix arrays with highly efficient compression rate and search support. In its first release we index the public proportion of OPT 175B, GPT-3, GPT-Neo, GPT-Neo, LLaMA, BERT, ELECTRA, RoBERTA, XLNet pre-training corpora. Koala provides a framework to do forensic analysis on the current and future benchmarks as well as to assess the degree of memorization in the output from the LLMs. Koala is available for public use at https://koala-index.erc.monash.edu/.",
+}
+
+
+@inproceedings{vu-etal-2022-domains,
+    abbr={WMT},
+    bibtex_show={true},
+    selected={true},
+    preview={mdml.jpg},
+    pdf={https://aclanthology.org/2022.wmt-1.34.pdf},
+    title = "Can Domains Be Transferred across Languages in Multi-Domain Multilingual Neural Machine Translation?",
+    author = "Vu, Thuy-Trang  and
+      Khadivi, Shahram  and
+      He, Xuanli  and
+      Phung, Dinh  and
+      Haffari, Gholamreza",
+    booktitle = "Proceedings of the Seventh Conference on Machine Translation (WMT)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.wmt-1.34",
+    pages = "381--396",
+    abstract = "Previous works mostly focus on either multilingual or multi-domain aspects of neural machine translation (NMT). This paper investigates whether the domain information can be transferred across languages on the composition of multi-domain and multilingual NMT, particularly for the incomplete data condition where in-domain bitext is missing for some language pairs. Our results in the curated leave-one-domain-out experiments show that multi-domain multilingual (MDML) NMT can boost zero-shot translation performance up to +10 gains on BLEU, as well as aid the generalisation of multi-domain NMT to the missing domain. We also explore strategies for effective integration of multilingual and multi-domain NMT, including language and domain tag combination and auxiliary task training. We find that learning domain-aware representations and adding target-language tags to the encoder leads to effective MDML-NMT.",
+}
+
+
+
+@inproceedings{luo-etal-2023-systematic,
+    title = "Systematic Assessment of Factual Knowledge in Large Language Models",
+    abbr={EMNLP Findings},
+    bibtex_show={true},
+    selected={true},
+    code={https://github.com/RManLuo/llm-facteval},
+    pdf={https://aclanthology.org/2023.findings-emnlp.885.pdf},
+    preview={llm-factual.png},
+    author = "Luo, Linhao  and
+      Vu, Trang  and
+      Phung, Dinh  and
+      Haf, Reza",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.885",
+    doi = "10.18653/v1/2023.findings-emnlp.885",
+    pages = "13272--13286",
+    abstract = "Previous studies have relied on existing question-answering benchmarks to evaluate the knowledge stored in large language models (LLMs). However, this approach has limitations regarding factual knowledge coverage, as it mostly focuses on generic domains which may overlap with the pretraining data. This paper proposes a framework to systematically assess the factual knowledge of LLMs by leveraging knowledge graphs (KGs). Our framework automatically generates a set of questions and expected answers from the facts stored in a given KG, and then evaluates the accuracy of LLMs in answering these questions. We systematically evaluate the state-of-the-art LLMs with KGs in generic and specific domains. The experiment shows that ChatGPT is consistently the top performer across all domains. We also find that LLMs performance depends on the instruction finetuning, domain and question complexity and is prone to adversarial context.",
+}
+
+@inproceedings{vu-etal-2022-domain,
+    abbr={ACL Findings},
+    preview={adapterfusion.jpg},
+    pdf={https://aclanthology.org/2022.findings-acl.49.pdf},
+    bibtex_show={true},
+    code={https://github.com/trangvu/lodo-nmt},
+    title = "Domain Generalisation of {NMT}: Fusing Adapters with Leave-One-Domain-Out Training",
+    author = "Vu, Thuy-Trang  and
+      Khadivi, Shahram  and
+      Phung, Dinh  and
+      Haffari, Gholamreza",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2022",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-acl.49",
+    doi = "10.18653/v1/2022.findings-acl.49",
+    pages = "582--588",
+    abstract = "Generalising to unseen domains is under-explored and remains a challenge in neural machine translation. Inspired by recent research in parameter-efficient transfer learning from pretrained models, this paper proposes a fusion-based generalisation method that learns to combine domain-specific parameters. We propose a leave-one-domain-out training strategy to avoid information leaking to address the challenge of not knowing the test domain during training time. Empirical results on three language pairs show that our proposed fusion method outperforms other baselines up to +0.8 BLEU score on average.",
+}
+
+@inproceedings{vu-etal-2021-generalised,
+    abbr={EMNLP},
+    bibtex_show={true},
+    preview={guda.jpg},
+    selected={true},
+    code={https://github.com/trangvu/guda},
+    pdf={https://aclanthology.org/2021.emnlp-main.268.pdf},
+    title = "Generalised Unsupervised Domain Adaptation of Neural Machine Translation with Cross-Lingual Data Selection",
+    author = "Vu, Thuy-Trang  and
+      He, Xuanli  and
+      Phung, Dinh  and
+      Haffari, Gholamreza",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.268",
+    doi = "10.18653/v1/2021.emnlp-main.268",
+    pages = "3335--3346",
+    abstract = "This paper considers the unsupervised domain adaptation problem for neural machine translation (NMT), where we assume the access to only monolingual text in either the source or target language in the new domain. We propose a cross-lingual data selection method to extract in-domain sentences in the missing language side from a large generic monolingual corpus. Our proposed method trains an adaptive layer on top of multilingual BERT by contrastive learning to align the representation between the source and target language. This then enables the transferability of the domain classifier between the languages in a zero-shot manner. Once the in-domain data is detected by the classifier, the NMT model is then adapted to the new domain by jointly learning translation and domain discrimination tasks. We evaluate our cross-lingual data selection method on NMT across five diverse domains in three language pairs, as well as a real-world scenario of translation for COVID-19. The results show that our proposed method outperforms other selection baselines up to +1.5 BLEU score.",
+}
+
+@inproceedings{vu-etal-2020-effective,
+    abbr={EMNLP},
+    selected={true},
+    bibtex_show={true},
+    preview={adv-mlm.jpg},
+    code={https://github.com/trangvu/mlm4uda},
+    pdf={https://aclanthology.org/2020.emnlp-main.497.pdf},
+    title = "Effective Unsupervised Domain Adaptation with Adversarially Trained Language Models",
+    author = "Vu, Thuy-Trang  and
+      Phung, Dinh  and
+      Haffari, Gholamreza",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.emnlp-main.497",
+    doi = "10.18653/v1/2020.emnlp-main.497",
+    pages = "6163--6173",
+    abstract = "Recent work has shown the importance of adaptation of broad-coverage contextualised embedding models on the domain of the target task of interest. Current self-supervised adaptation methods are simplistic, as the training signal comes from a small percentage of \textit{randomly} masked-out tokens. In this paper, we show that careful masking strategies can bridge the knowledge gap of masked language models (MLMs) about the domains more effectively by allocating self-supervision where it is needed. Furthermore, we propose an effective training strategy by adversarially masking out those tokens which are harder to reconstruct by the underlying MLM. The adversarial objective leads to a challenging combinatorial optimisation problem over \textit{subsets} of tokens, which we tackle efficiently through relaxation to a variational lowerbound and dynamic programming. On six unsupervised domain adaptation tasks involving named entity recognition, our method strongly outperforms the random masking strategy and achieves up to +1.64 F1 score improvements.",
+}
+
+@inproceedings{vu-etal-2019-learning,
+    abbr={ACL},
+    selected={true},
+    bibtex_show={true},
+    preview={alil-dream.jpg},
+    code={https://github.com/trangvu/alil-dream},
+    pdf={https://aclanthology.org/P19-1401.pdf},
+    title = "Learning How to Active Learn by Dreaming",
+    author = "Vu, Thuy-Trang  and
+      Liu, Ming  and
+      Phung, Dinh  and
+      Haffari, Gholamreza",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P19-1401",
+    doi = "10.18653/v1/P19-1401",
+    pages = "4091--4101",
+    abstract = "Heuristic-based active learning (AL) methods are limited when the data distribution of the underlying learning problems vary. Recent data-driven AL policy learning methods are also restricted to learn from closely related domains. We introduce a new sample-efficient method that learns the AL policy directly on the target domain of interest by using wake and dream cycles. Our approach interleaves between querying the annotation of the selected datapoints to update the underlying student learner and improving AL policy using simulation where the current student learner acts as an imperfect annotator. We evaluate our method on cross-domain and cross-lingual text classification and named entity recognition tasks. Experimental results show that our dream-based AL policy training strategy is more effective than applying the pretrained policy without further fine-tuning and better than the existing strong baseline methods that use heuristics or reinforcement learning.",
+}
+
+@inproceedings{vu-haffari-2018-automatic,
+    abbr={EMNLP},
+    bibtex_show={true},
+    preview={ape-npi.jpg},
+    code={https://github.com/trangvu/ape-npi},
+    pdf={https://aclanthology.org/D18-1341.pdf},
+    title = "Automatic Post-Editing of Machine Translation: A Neural Programmer-Interpreter Approach",
+    author = "Vu, Thuy-Trang  and
+      Haffari, Gholamreza",
+    booktitle = "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+    month = oct # "-" # nov,
+    year = "2018",
+    address = "Brussels, Belgium",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D18-1341",
+    doi = "10.18653/v1/D18-1341",
+    pages = "3048--3053",
+    abstract = "Automated Post-Editing (PE) is the task of automatically correct common and repetitive errors found in machine translation (MT) output. In this paper, we present a neural programmer-interpreter approach to this task, resembling the way that human perform post-editing using discrete edit operations, wich we refer to as programs. Our model outperforms previous neural models for inducing PE programs on the WMT17 APE task for German-English up to +1 BLEU score and -0.7 TER scores.",
+}
+
+
 @string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}

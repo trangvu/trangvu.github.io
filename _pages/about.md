@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-   <p>244 Woodside buidling</p>
+   <p>257 Woodside buidling</p>
     <p>20 Exhibition Walk </p>
     <p>Monash University, Australia </p>
     <p>E: <a>trang.vu1@monash.edu</a></p>

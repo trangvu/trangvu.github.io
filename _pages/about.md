@@ -20,7 +20,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Trang Vu is a Lecturer in Department of Data Science and Artificial Intelligence, Faculty of Information Technology, Monash University. Her research interests lie at the intersection of natural language processing and machine learning. Her current research focuses on efficient and trustworthy NLP methods to make NLP technologies safe and accessible.
+Trang Vu is a Lecturer in Department of Data Science and Artificial Intelligence, Faculty of Information Technology, Monash University. Her research interests lie at the intersection of natural language processing and machine learning. Her current research focuses on efficient and trustworthy methods to make NLP technologies safe and accessible.
 
 My current research interests include
 - Safe and trustworthy NLP: alignment and hallucination mitigation for LLMs

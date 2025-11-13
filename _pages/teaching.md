@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching
 description: #classes, workshops, and teaching material
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 <h3 class="mt-4">Monash University</h3>
 
@@ -20,9 +20,9 @@ nav_order: 2
         </span>
       </div>
     </div>
-    <h6 class="font-italic mt-2 mt-sm-0">S1 2024</h6>
+    <h6 class="font-italic mt-2 mt-sm-0">2024-2025</h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">Graduate-level introduction unit to algorithms and data structures</li>
+      <li class="list-group-item">Graduate-level introduction unit to Python programming</li>
     </ul>
   </div>
 </div>
@@ -60,7 +60,7 @@ nav_order: 2
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">S2 2020 and S1 2022: Teaching Assistant</h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">Graduate-level Natural Language Processing course taught by <a href="https://users.monash.edu.au/~gholamrh/">Prof. Reza Haffari</a> and <a href="https://eehsan.github.io/">Ehsan Shareghi</a>.</li>
+      <li class="list-group-item">Graduate-level Natural Language Processing course taught by <a href="https://users.monash.edu.au/~gholamrh/">Reza Haffari</a> and <a href="https://eehsan.github.io/">Ehsan Shareghi</a>.</li>
       <li class="list-group-item">Prepared new set of tutorials covering deep learning for NLP including </li>
       <li class="list-group-item"> - Introduction to Pytorch</li>
       <li class="list-group-item"> - RNN and RNN language models</li>
@@ -85,7 +85,7 @@ nav_order: 2
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">2020-2022: Teaching Assistant</h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">Graduate-level introduction to Artificial Intelligence course taught by <a href="https://research.monash.edu/en/persons/ingrid-zukerman">Prof. Ingrid Zukerman</a> and <a href="https://research.monash.edu/en/persons/julian-gutierrez-santiago">Julian  Gutierrez</a>.</li>
+      <li class="list-group-item">Graduate-level introduction to Artificial Intelligence course taught by <a href="https://research.monash.edu/en/persons/ingrid-zukerman">Ingrid Zukerman</a> and <a href="https://research.monash.edu/en/persons/julian-gutierrez-santiago">Julian  Gutierrez</a>.</li>
       <li class="list-group-item">My responsibilities included conducting tutorials for groups of students, providing consultations to address any questions they may have had, assisting the lecturer in preparing and marking quizzes and assignments.</li>
     </ul>
   </div>

@@ -1,0 +1,141 @@
+current_phd:
+  - name: Laks Balasubramanian
+    degree: PhD
+    role: Co-Supervisor
+    start: 2025
+    affiliation: Monash University
+    topic: AI-Augmented Coaching
+    joint_with: Delvin Varghese
+    status: Current
+  - name: Junnan Liu
+    degree: PhD
+    role: Co-Supervisor
+    start: 2025
+    affiliation: Monash University
+    topic: Reasoning
+    joint_with: Reza Haffari
+    status: Current
+    website: https://scholar.google.com/citations?user=RZQqPEAAAAAJ
+  - name: Hoang Ngo
+    degree: PhD
+    role: Main Supervisor
+    start: 2025
+    affiliation: Monash University
+    topic: Safety of LLMs
+    joint_with: Reza Haffari
+    status: Current
+    photo:
+    website:
+  - name: Nhung Nguyen
+    degree: PhD
+    role: Co-Supervisor
+    start: 2025
+    affiliation: Monash University
+    topic: Multi-agent Systems
+    joint_with: Dinh Phung
+    status: Current
+    website: https://nhungnt7.github.io/
+  - name: Mona Golestan Far
+    degree: PhD
+    role: Co-Supervisor
+    start: 2025
+    affiliation: Monash University
+    topic: Reasoning with Knowledge Graph
+    joint_with: Reza Haffari
+    status: Current
+  - name: Jiangnan Li
+    degree: PhD
+    role: Co-Supervisor
+    start: 2025
+    affiliation: Monash University
+    topic: Alignment
+    joint_with: Reza Haffari, Shahram Khadivi
+    status: Current
+    website: https://scholar.google.com/citations?hl=en&user=ux6PjDQAAAAJ&view_op=list_works&sortby=pubdate
+  - name: Hiba Khurshid
+    degree: PhD
+    role: Co-Supervisor
+    start: 2024
+    affiliation: Monash University
+    topic: AI-Augmented Coaching
+    joint_with: Levin Kuhlmann, Delvin Varghese
+    status: Current
+  - name: Minghan Wang
+    degree: PhD
+    role: Co-Supervisor
+    start: 2023
+    affiliation: Monash University
+    topic: Translation
+    joint_with: Reza Haffari, Ehsan Shareghi
+    status: Current
+    website: https://scholar.google.com/citations?hl=en&user=F6nm6awAAAAJ&view_op=list_works&sortby=pubdate
+current_master:
+  - name: Jian Yang
+    degree: Master
+    role: Main Supervisor
+    start: 2025
+    affiliation: Monash University
+    topic: Active Preference Learning
+    status: Current
+  - name: Chun-Heng Chien
+    degree: Master
+    role: Main Supervisor
+    start: 2025
+    affiliation: Monash University
+    topic: Generative Active Learning
+    status: Current
+  - name: Prakrit Dayal
+    degree: Master
+    role: Main Supervisor
+    start: 2025
+    status: Current
+    affiliation: Monash University
+    topic: Generative Active Learning
+  - name: Yiming Zhang
+    degree: Master
+    role: Main Supervisor
+    start: 2025
+    affiliation: Monash University
+    topic: Medical Report Generation
+    joint_with: Thanh Nguyen
+    status: Current
+  
+alumni:
+  - name: Minghao Wu
+    degree: PhD
+    end: 2025
+    affiliation: Monash University
+    placement: 
+    thesis: Document-Level Machine Translation
+    joint_with: Reza Haffari, Lizhen Qu, George Foster
+    status: Alumni
+    website: https://minghao-wu.github.io/
+  - name: Ye Bai
+    degree: Master
+    end: 2025
+    affiliation: Monash University
+    placement: PhD at University of Melbourne
+    thesis: Table Understanding
+    status: Alumni
+  - name: Alex Ekkel
+    degree: Master
+    end: 2024
+    affiliation: Monash University
+    placement: 
+    thesis: Multilingual Language Models
+    status: Alumni
+  - name: Amir Mohammadi
+    degree: Master
+    end: 2024
+    affiliation: Monash University
+    placement:
+    thesis: AI-generated text detection
+    status: Alumni
+  - name: Lucien Gentil
+    degree: Master
+    end: 2024
+    affiliation: Monash University
+    placement:
+    thesis: Machine Translation
+    status: Alumni
+

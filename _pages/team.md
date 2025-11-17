@@ -20,7 +20,6 @@ nav_order: 2
     </div>
   {% endfor %}
 </div>
-
 <h2>Alumni</h2>
 <div class="row g-3">
   {% for person in site.data.people.alumni %}

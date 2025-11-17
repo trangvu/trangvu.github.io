@@ -1,12 +1,4 @@
 current_phd:
-  - name: Laks Balasubramanian
-    degree: PhD
-    role: Co-Supervisor
-    start: 2025
-    affiliation: Monash University
-    topic: AI-Augmented Coaching
-    joint_with: Delvin Varghese
-    status: Current
   - name: Junnan Liu
     degree: PhD
     role: Co-Supervisor

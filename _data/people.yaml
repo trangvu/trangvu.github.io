@@ -1,4 +1,13 @@
 current_phd:
+  - name: Dam-Trang Pham
+    degree: PhD
+    role: Co-Supervisor
+    start: 2026
+    affiliation: Monash University
+    topic: Diagnostic Reasoning
+    joint_with: Yasmeen George, Ehsan Shareghi
+    status: Current
+    website: 
   - name: Junnan Liu
     degree: PhD
     role: Co-Supervisor

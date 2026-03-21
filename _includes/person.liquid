@@ -16,22 +16,14 @@
   {% if has_link %}
     <a href="{{ person.website }}" target="_blank" rel="noopener" class="card-link" aria-label="{{ person.name }} website">
   {% endif %}
+
   {%- if site.enable_people_thumbnails -%}
     <div class="thumb">
       {%- if person.photo -%}
         {%- if person.photo contains '://' -%}
           <img src="{{ person.photo }}" alt="{{ person.name }} headshot">
         {%- else -%}
-          {%- assign person_path = person.photo | prepend: '/assets/img/people/' -%}
-          {%
-            include figure.liquid
-            loading="eager"
-            path=person_path
-            sizes="60px"
-            class=""
-            zoomable=false
-            alt=person.name
-          %}
+          <img src="{{ '/assets/img/people/' | append: person.photo | relative_url }}" alt="{{ person.name }} headshot">
         {%- endif -%}
       {%- elsif person.initials -%}
         <div class="initials" aria-label="{{ person.name }} initials">{{ person.initials }}</div>
@@ -40,7 +32,6 @@
   {%- endif -%}
 
   <div class="body">
-    <!-- Name -->
     <div class="title">
       {{ person.name }}
       {%- if person.pronouns -%}
@@ -48,45 +39,54 @@
       {%- endif -%}
     </div>
 
-    <!-- Badges -->
     <div class="badges">
-      {% if person.degree %}<span class="badge degree {{ person.degree | downcase }}">{{ person.degree }}</span>{% endif %}
-      {%- if person.role -%}<span class="badge role">{{ person.role }}</span>{%- endif -%}
-      {% if person.status %}<span class="badge status {{ person.status | downcase }}">{{ person.status }}</span>{% endif %}
+      {% if person.degree %}
+        <span class="badge degree {{ person.degree | downcase }}">{{ person.degree }}</span>
+      {% endif %}
+      {% if person.role %}
+        <span class="badge role">{{ person.role }}</span>
+      {% endif %}
     </div>
 
-
-    <!-- Years / Affiliation -->
     {%- assign start = person.start | default: person.years -%}
     {%- assign end = person.end -%}
+
     {%- if start or person.affiliation -%}
       <div class="line">
-        {%- if start and end -%}[{{ start }}–{{ end }}]{%- elsif start -%}[{{ start }}–]{%- endif -%}
-        {%- if person.affiliation -%}{%- if start -%} · {%- endif -%}{{ person.affiliation }}{%- endif -%}
+        {%- if start and end -%}
+          [{{ start }}–{{ end }}]
+        {%- elsif start -%}
+          [{{ start }}–]
+        {%- endif -%}
+        {%- if person.affiliation -%}
+          {%- if start -%} · {% endif -%}{{ person.affiliation }}
+        {%- endif -%}
       </div>
     {%- endif -%}
 
-    <!-- Details -->
-    {%- if person.topic -%}<div class="line">Focus: <em>{{ person.topic }}</em></div>{%- endif -%}
-    {%- if person.thesis -%}<div class="line">Thesis: <em>{{ person.thesis }}</em></div>{%- endif -%}
-    {%- if person.joint_with -%}<div class="line">Joint with {{ person.joint_with }}</div>{%- endif -%}
-    {% if person.status == "Alumni" %}
-  <div class="line">
-    {% if person.end %}
-      Graduated <strong>{{ person.end }}</strong>
-      {% if person.current_location %} — {{ person.current_location }}{% endif %}
-    {% endif %}
-  </div>
-  {% if person.placement %}
-    <div class="line"><span class="arrow">-></span> {{ person.placement }}</div>
-  {% endif %}
-{% else %}
-  {% if person.placement %}
-    <div class="line"><span class="arrow">-></span> {{ person.placement }}</div>
-  {% endif %}
-{% endif %}
+    {%- if person.topic -%}
+      <div class="line">Focus: <em>{{ person.topic }}</em></div>
+    {%- endif -%}
 
+    {%- if person.thesis -%}
+      <div class="line">Thesis: <em>{{ person.thesis }}</em></div>
+    {%- endif -%}
+
+    {%- if person.joint_with -%}
+      <div class="line">Joint with {{ person.joint_with }}</div>
+    {%- endif -%}
+
+    {%- if person.status == "Alumni" and person.end -%}
+      <div class="line">
+        Graduated <strong>{{ person.end }}</strong>{% if person.current_location %} · {{ person.current_location }}{% endif %}
+      </div>
+    {%- endif -%}
+
+    {%- if person.placement -%}
+      <div class="line"><span class="arrow">→</span> {{ person.placement }}</div>
+    {%- endif -%}
   </div>
+
   {% if has_link %}
     </a>
   {% endif %}

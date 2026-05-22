@@ -12,6 +12,25 @@ nav_order: 3
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
+        <h5 class="font-weight-bold">Natural Language Processing</h5>
+      </div>
+      <div class="col-sm-2 text-left text-sm-right">
+        <span class="badge font-weight-bold text-uppercase align-middle" style="background-color: #b509ac">
+            FIT5217
+        </span>
+      </div>
+    </div>
+    <h6 class="font-italic mt-2 mt-sm-0">2026</h6>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item">Graduate-level introduction unit to Natural Language Processing</li>
+    </ul>
+  </div>
+</div>
+
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
         <h5 class="font-weight-bold">Algorithms and Programming Foundations in Python</h5>
       </div>
       <div class="col-sm-2 text-left text-sm-right">

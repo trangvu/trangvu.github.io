@@ -16,7 +16,7 @@ nav_order: 2
 .roster .info { flex: 1; min-width: 0; }
 .roster .name { font-weight: 600; color: inherit; text-decoration: none; }
 .roster .name:hover { color: var(--global-theme-color); }
-.roster .topic { color: var(--global-text-color-light); }
+.roster .topic { font-size: .82rem; color: var(--global-text-color-light); }
 .roster .sub   { font-size: .82rem; color: var(--global-text-color-light); margin-top: .2rem; }
 .roster .meta  { text-align: right; flex-shrink: 0; white-space: nowrap; }
 .roster .year  { font-size: .82rem; color: var(--global-text-color-light); margin-top: .3rem; }
@@ -69,9 +69,10 @@ nav_order: 2
 {% for p in alumni %}
   <div class="row">
       <div class="info">
-        <a class="name" href="{{ p.website | default: '#' }}"{% if p.website %} target="_blank" rel="noopener"{% endif %}>{{ p.name }}</a>{% if p.thesis %}<span class="topic"> --- {{ p.thesis }}</span>{% endif %}
-        <div class="sub">{% if p.joint_with %}with {{ p.joint_with }} {% endif %}</div>
-        <div class="sub">{% if p.placement %}Now: {{ p.placement }} {% endif %}</div>
+        <a class="name" href="{{ p.website | default: '#' }}"{% if p.website %} target="_blank" rel="noopener"{% endif %}>{{ p.name }}</a> {% if p.placement %}<span class="topic"> ➡️ {{ p.placement }}</span>{% endif %}
+        <!-- {% if p.joint_with %} <span class="topic">with {{ p.joint_with }} </span> {% endif %} -->
+        {% if p.thesis %}<div class="sub"> <b>Thesis:</b> {{ p.thesis }}</div>{% endif %}
+        <!-- <div class="sub">{% if p.placement %}-> {{ p.placement }} {% endif %}</div> -->
       </div>
       <div class="meta">
         <span class="badge {% if p.degree == 'PhD' %}b-phd{% else %}b-master{% endif %}">{{ p.degree }}</span>

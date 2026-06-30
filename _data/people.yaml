@@ -108,7 +108,7 @@ current_master:
     role: Main Supervisor
     start: 2025
     affiliation: Monash University
-    topic: Active Preference Learning
+    topic: Token-Level On-Policy Contrastive Distillation Without Full Rollouts
     status: Current  
 alumni:
   - name: Minghao Wu
@@ -128,7 +128,7 @@ alumni:
     role: Main Supervisor
     affiliation: Monash University
     placement: PhD at University of Melbourne
-    thesis: Table Understanding
+    thesis: "MAPLE: Multi-agent adaptive planning with long-term memory for table reasoning"
     status: Alumni
   - name: Alex Ekkel
     degree: Master
@@ -137,7 +137,7 @@ alumni:
     affiliation: Monash University
     placement: 
     role: Main Supervisor
-    thesis: Multilingual Language Models
+    thesis: "Foreign Afterthoughts: An Analysis of Latent Multilingual Thinking in Large Language Models"
     status: Alumni
   - name: Amir Mohammadi
     degree: Master
@@ -146,7 +146,7 @@ alumni:
     affiliation: Monash University
     placement:
     role: Co Supervisor
-    thesis: AI-generated text detection
+    thesis: Detection of AI-Generated Text Across Models and Languages
     status: Alumni
   - name: Lucien Gentil
     degree: Honours
@@ -155,7 +155,7 @@ alumni:
     role: Co Supervisor
     affiliation: Monash University
     placement:
-    thesis: Machine Translation
+    thesis: Guided Correction to Contextual Lexical Errors in Neural Machine Translation
     status: Alumni
   - name: Chun-Heng Chien
     degree: Master
@@ -163,7 +163,7 @@ alumni:
     start: 2025
     end: 2026
     affiliation: Monash University
-    thesis: Generative Active Learning
+    thesis: A Systematic Evaluation of Generative Active Learning for Text Generation Tasks
     status: Alumni
   - name: Prakrit Dayal
     degree: Master
@@ -172,13 +172,13 @@ alumni:
     end: 2026
     status: Alumni
     affiliation: Monash University
-    thesis: Active Learning
+    thesis: Cost-Asymmetric Selective Cascade Annotation for Generative Active Learning
   - name: Yiming Zhang
     degree: Master
     role: Main Supervisor
     start: 2025
     end: 2026
     affiliation: Monash University
-    thesis: Medical Report Generation
+    thesis: Automated Medical Report Generation Using Large Language Models
     joint_with: Thanh Nguyen
     status: Alumni

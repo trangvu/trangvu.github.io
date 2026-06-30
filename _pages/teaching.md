@@ -6,106 +6,53 @@ description: #classes, workshops, and teaching material
 nav: true
 nav_order: 3
 ---
-<h3 class="mt-4">Monash University</h3>
+<style>
+.courses { border-top: .5px solid var(--global-divider-color); }
+.courses details { border-bottom: .5px solid var(--global-divider-color); }
+.courses summary {
+  display: flex; align-items: baseline; gap: .75rem;
+  padding: .7rem 0; cursor: pointer; list-style: none;
+}
+.courses summary::-webkit-details-marker { display: none; }
+.courses .chev { font-size: 1rem; color: var(--global-text-color-light); transition: transform .15s; flex-shrink: 0; }
+.courses details[open] .chev { transform: rotate(90deg); }
+.courses .info { flex: 1; min-width: 0; }
+.courses .title { font-weight: 600; }
+.courses .code  { font-size: .82rem; color: var(--global-text-color-light); }
+.courses .blurb { font-size: .82rem; color: var(--global-text-color); margin-top: .15rem; }
+.courses .meta  { text-align: right; flex-shrink: 0; white-space: nowrap; }
+.courses .year  { font-size: .82rem; color: var(--global-text-color-light); margin-top: .3rem; }
+.courses .syllabus { padding: .25rem 0 1rem 1.75rem; font-size: .9rem; color: var(--global-text-color); line-height: 1.7; }
+.courses .syllabus ul { margin: .4rem 0 0; padding-left: 1.1rem; }
+.badge { display:inline-block; font-size:.72rem; padding:2px 8px; border-radius:5px; }
+.b-lect { background:#2f8d6c; color:#993C1D; }
+.b-ta   { background:#9f4221; color:#085041; }
+.courses-head {
+  font-size:.8rem; letter-spacing:.05em; text-transform:uppercase;
+  color:var(--global-text-color-light); margin-bottom:.25rem;
+}
+@media (max-width: 576px) {
+  .courses summary { flex-wrap: wrap; }
+  .courses .meta { text-align: left; }
+}
+</style>
 
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 class="font-weight-bold">Natural Language Processing</h5>
+<div class="courses-head">Monash University</div>
+<div class="courses">
+{% for c in site.data.teaching %}
+  <details{% if c.open %} open{% endif %}>
+    <summary>
+      <i class="ti ti-chevron-right chev"></i>
+      <div class="info">
+        <span class="title">{{ c.title }}</span><span class="code"> · {{ c.code }}</span>
+        {% if c.blurb %}<div class="blurb">{{ c.blurb }}</div>{% endif %}
       </div>
-      <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold text-uppercase align-middle" style="background-color: #b509ac">
-            FIT5217
-        </span>
+      <div class="meta">
+        <span class="badge {% if c.role == 'TA' %}b-ta{% else %}b-lect{% endif %}">{{ c.role | default: 'Lecturer' }}</span>
+        <div class="year">{{ c.year }}</div>
       </div>
-    </div>
-    <h6 class="font-italic mt-2 mt-sm-0">2026</h6>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">Graduate-level introduction unit to Natural Language Processing</li>
-    </ul>
-  </div>
-</div>
-
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 class="font-weight-bold">Algorithms and Programming Foundations in Python</h5>
-      </div>
-      <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold text-uppercase align-middle" style="background-color: #b509ac">
-            FIT9136
-        </span>
-      </div>
-    </div>
-    <h6 class="font-italic mt-2 mt-sm-0">2024-2025</h6>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">Graduate-level introduction unit to Python programming</li>
-    </ul>
-  </div>
-</div>
-
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 class="font-weight-bold">Fundamentals of Algorithms</h5>
-      </div>
-      <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold text-uppercase align-middle" style="background-color: #b509ac">
-            FIT1008
-        </span>
-      </div>
-    </div>
-    <h6 class="font-italic mt-2 mt-sm-0">S1 2024</h6>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">Undergraduate-level introduction unit to algorithms and data structures</li>
-    </ul>
-  </div>
-</div>
-
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 class="font-weight-bold">Natural Language Processing</h5>
-      </div>
-      <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">
-            FIT5217
-        </span>
-      </div>
-    </div>
-    <h6 class="font-italic mt-2 mt-sm-0">S2 2020 and S1 2022: Teaching Assistant</h6>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">Graduate-level Natural Language Processing course taught by <a href="https://users.monash.edu.au/~gholamrh/">Reza Haffari</a> and <a href="https://eehsan.github.io/">Ehsan Shareghi</a>.</li>
-      <li class="list-group-item">Prepared new set of tutorials covering deep learning for NLP including </li>
-      <li class="list-group-item"> - Introduction to Pytorch</li>
-      <li class="list-group-item"> - RNN and RNN language models</li>
-      <li class="list-group-item"> - Seq2Seq model - LSTM based and Transformers</li>
-      <li class="list-group-item"> - Large language models</li>
-      <li class="list-group-item">Conducted tutorials for groups of students, provided consultations to address any questions they may have had, assisted the lecturer in preparing and marking quizzes and assignments. </li>
-    </ul>
-  </div>
-</div>
-
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 class="font-weight-bold">Fundamental of Artificial Intelligence</h5>
-      </div>
-      <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">
-            FIT5047
-        </span>
-      </div>
-    </div>
-    <h6 class="font-italic mt-2 mt-sm-0">2020-2022: Teaching Assistant</h6>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">Graduate-level introduction to Artificial Intelligence course taught by <a href="https://research.monash.edu/en/persons/ingrid-zukerman">Ingrid Zukerman</a> and <a href="https://research.monash.edu/en/persons/julian-gutierrez-santiago">Julian  Gutierrez</a>.</li>
-      <li class="list-group-item">My responsibilities included conducting tutorials for groups of students, providing consultations to address any questions they may have had, assisting the lecturer in preparing and marking quizzes and assignments.</li>
-    </ul>
-  </div>
+    </summary>
+    <div class="syllabus">{{ c.syllabus | markdownify }}</div>
+  </details>
+{% endfor %}
 </div>

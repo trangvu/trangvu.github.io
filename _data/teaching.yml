@@ -1,0 +1,32 @@
+- title: Natural Language Processing
+  code: FIT5217
+  role: Lecturer
+  year: 2026
+  blurb: Graduate introduction to NLP
+  syllabus: >
+    Graduate-level introduction unit covering the foundations and modern
+    methods of NLP, including n-gram models, parsing,
+    classification, deep learning and large language models.
+
+- title: Algorithms and Programming Foundations in Python
+  code: FIT9136
+  role: Lecturer
+  year: 2024-26
+  blurb: Graduate introduction to Python programming
+  syllabus: Graduate-level introduction to Python programming and algorithmic thinking.
+
+- title: Natural Language Processing
+  code: FIT5217
+  role: TA
+  year: 2020, 2022
+  blurb: Taught by Reza Haffari and Ehsan Shareghi
+  syllabus: |
+    Graduate-level introduction unit covering the foundations and modern
+    methods of NLP, including language models, parsing,
+    classification, and deep learning approaches.
+- title: Fundamentals of Artificial Intelligence
+  code: FIT5047
+  role: TA
+  year: 2020-22
+  blurb: Taught by Ingrid Zukerman and Julian Gutierrez
+  syllabus: Graduate-level introduction to artificial intelligence. 

@@ -44,7 +44,7 @@ nav_order: 3
     <summary>
       <i class="ti ti-chevron-right chev"></i>
       <div class="info">
-        <span class="title">{{ c.title }}</span><span class="code"> · {{ c.code }}</span>
+        <span class="title">{{ c.title }}</span><span class="code">  {{ c.code }}</span>
         {% if c.blurb %}<div class="blurb">{{ c.blurb }}</div>{% endif %}
       </div>
       <div class="meta">

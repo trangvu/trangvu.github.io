@@ -92,7 +92,7 @@ current_master:
     role: Main Supervisor
     start: 2026
     affiliation: Monash University
-    topic: Continuous Learning
+    topic: Continual Learning
     joint_with: Thanh-Thi Nguyen
     status: Current  
   - name: Jia-Wen Liu

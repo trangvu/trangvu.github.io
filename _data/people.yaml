@@ -1,4 +1,13 @@
 current_phd:
+  - name: Qile (Issac) Wan
+    degree: PhD
+    role: Main Supervisor
+    start: 2026
+    affiliation: Monash University
+    topic: Planning
+    joint_with: Reza Haffari, Lizhen Qu, Naim Rastgoo
+    status: Current
+    website: 
   - name: Dam-Trang Pham
     degree: PhD
     role: Co-Supervisor
@@ -71,72 +80,105 @@ current_phd:
     status: Current
     website: https://scholar.google.com/citations?hl=en&user=F6nm6awAAAAJ&view_op=list_works&sortby=pubdate
 current_master:
+  - name: Howard Liao
+    degree: Master
+    role: Main Supervisor
+    start: 2026
+    affiliation: Monash University
+    topic: Video Machine Translation
+    status: Current
+  - name: Alex Sun
+    degree: Master
+    role: Main Supervisor
+    start: 2026
+    affiliation: Monash University
+    topic: Continuous Learning
+    joint_with: Thanh-Thi Nguyen
+    status: Current  
+  - name: Jia-Wen Liu
+    degree: Master
+    role: Co Supervisor
+    start: 2026
+    affiliation: Monash University
+    topic: Fidelity Assessment
+    joint_with: Levin Kuhlmann
+    status: Current  
   - name: Jian Yang
     degree: Master
     role: Main Supervisor
     start: 2025
     affiliation: Monash University
     topic: Active Preference Learning
-    status: Current
-  - name: Chun-Heng Chien
-    degree: Master
-    role: Main Supervisor
-    start: 2025
-    affiliation: Monash University
-    topic: Generative Active Learning
-    status: Current
-  - name: Prakrit Dayal
-    degree: Master
-    role: Main Supervisor
-    start: 2025
-    status: Current
-    affiliation: Monash University
-    topic: Generative Active Learning
-  - name: Yiming Zhang
-    degree: Master
-    role: Main Supervisor
-    start: 2025
-    affiliation: Monash University
-    topic: Medical Report Generation
-    joint_with: Thanh Nguyen
-    status: Current
-  
+    status: Current  
 alumni:
   - name: Minghao Wu
     degree: PhD
+    start: 2024
     end: 2025
     affiliation: Monash University
-    placement: 
+    placement: Research Scientist at Alibaba Qwen
     thesis: Document-Level Machine Translation
     joint_with: Reza Haffari, Lizhen Qu, George Foster
     status: Alumni
     website: https://minghao-wu.github.io/
   - name: Ye Bai
     degree: Master
+    start: 2024
     end: 2025
+    role: Main Supervisor
     affiliation: Monash University
     placement: PhD at University of Melbourne
     thesis: Table Understanding
     status: Alumni
   - name: Alex Ekkel
     degree: Master
+    start: 2024
     end: 2024
     affiliation: Monash University
     placement: 
+    role: Main Supervisor
     thesis: Multilingual Language Models
     status: Alumni
   - name: Amir Mohammadi
     degree: Master
+    start: 2023
     end: 2024
     affiliation: Monash University
     placement:
+    role: Co Supervisor
     thesis: AI-generated text detection
     status: Alumni
   - name: Lucien Gentil
-    degree: Master
+    degree: Honours
+    start: 2023
     end: 2024
+    role: Co Supervisor
     affiliation: Monash University
     placement:
     thesis: Machine Translation
     status: Alumni
-
+  - name: Chun-Heng Chien
+    degree: Master
+    role: Main Supervisor
+    start: 2025
+    end: 2026
+    affiliation: Monash University
+    thesis: Generative Active Learning
+    status: Alumni
+  - name: Prakrit Dayal
+    degree: Master
+    role: Main Supervisor
+    start: 2025
+    end: 2026
+    status: Alumni
+    affiliation: Monash University
+    thesis: Active Learning
+  - name: Yiming Zhang
+    degree: Master
+    role: Main Supervisor
+    start: 2025
+    end: 2026
+    affiliation: Monash University
+    thesis: Medical Report Generation
+    joint_with: Thanh Nguyen
+    status: Alumni

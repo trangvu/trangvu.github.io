@@ -80,6 +80,20 @@ current_phd:
     status: Current
     website: https://scholar.google.com/citations?hl=en&user=F6nm6awAAAAJ&view_op=list_works&sortby=pubdate
 current_master:
+  - name: Mai Dinh
+    degree: Master
+    role: Main Supervisor
+    start: 2026
+    affiliation: Monash University
+    topic: Multilingual
+    status: Current
+  - name: Anthony Ouch
+    degree: Master
+    role: Main Supervisor
+    start: 2026
+    affiliation: Monash University
+    topic: Multi-agent System Oversight
+    status: Current
   - name: Howard Liao
     degree: Master
     role: Main Supervisor

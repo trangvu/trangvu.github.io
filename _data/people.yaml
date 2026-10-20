@@ -1,10 +1,19 @@
 current_phd:
+  - name: Benjamin Smith
+    degree: PhD
+    role: Main Supervisor
+    start: 2026
+    affiliation: Monash University
+    topic: AI-Augmented Coaching
+    joint_with: Levin Kuhlmann, Teresa Wang
+    status: Current
+    website: 
   - name: Qile (Issac) Wan
     degree: PhD
     role: Main Supervisor
     start: 2026
     affiliation: Monash University
-    topic: Planning
+    topic: Agentic Systems
     joint_with: Reza Haffari, Lizhen Qu, Naim Rastgoo
     status: Current
     website: 
@@ -67,7 +76,7 @@ current_phd:
     role: Co-Supervisor
     start: 2024
     affiliation: Monash University
-    topic: AI-Augmented Coaching
+    topic: Automated MITI Coding
     joint_with: Levin Kuhlmann, Delvin Varghese
     status: Current
   - name: Minghan Wang
@@ -94,36 +103,6 @@ current_master:
     affiliation: Monash University
     topic: Multi-agent System Oversight
     status: Current
-  - name: Howard Liao
-    degree: Master
-    role: Main Supervisor
-    start: 2026
-    affiliation: Monash University
-    topic: Video Machine Translation
-    status: Current
-  - name: Alex Sun
-    degree: Master
-    role: Main Supervisor
-    start: 2026
-    affiliation: Monash University
-    topic: Continual Learning
-    joint_with: Thanh-Thi Nguyen
-    status: Current  
-  - name: Jia-Wen Liu
-    degree: Master
-    role: Co Supervisor
-    start: 2026
-    affiliation: Monash University
-    topic: Fidelity Assessment
-    joint_with: Levin Kuhlmann
-    status: Current  
-  - name: Jian Yang
-    degree: Master
-    role: Main Supervisor
-    start: 2025
-    affiliation: Monash University
-    topic: Token-Level On-Policy Contrastive Distillation Without Full Rollouts
-    status: Current  
 alumni:
   - name: Minghao Wu
     degree: PhD
@@ -196,3 +175,36 @@ alumni:
     thesis: Automated Medical Report Generation Using Large Language Models
     joint_with: Thanh Nguyen
     status: Alumni
+    - name: Howard Liao
+    degree: Master
+    role: Main Supervisor
+    start: 2026
+    affiliation: Monash University
+    topic: Video Machine Translation
+    status: Current
+  - name: Alex Sun
+    degree: Master
+    role: Main Supervisor
+    start: 2026
+    end: 2026
+    affiliation: Monash University
+    topic: Continual Harness Learning
+    joint_with: Thanh-Thi Nguyen
+    status: Alumni  
+  - name: Jia-Wen Liu
+    degree: Master
+    role: Co Supervisor
+    start: 2026
+    end: 2026
+    affiliation: Monash University
+    topic: Fidelity Assessment
+    joint_with: Levin Kuhlmann
+    status: Alumni  
+  - name: Jian Yang
+    degree: Master
+    role: Main Supervisor
+    start: 2025
+    end: 2026
+    affiliation: Monash University
+    topic: Token-Level On-Policy Contrastive Distillation Without Full Rollouts
+    status: Alumni  
